@@ -3,7 +3,7 @@ const http = require('http');
 const { Server } = require('socket.io');
 const { io: ClientIO } = require('socket.io-client');
 
-const TARGET_WS = 'ws://prem-eu3.bot-hosting.net:20414';
+const TARGET_WS = 'ws://us2.bot-hosting.net:21892';
 const PORT = process.env.PORT || 3000;
 
 // HTTP сервер (для Socket.IO)
